@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Jarditou</title>
+    <link rel="stylesheet" media="screen and (max-width: 575px)" href="/assets/css/styles.css">
+    <link rel="stylesheet" media="screen and (min-width: 576px)" href="/assets/css/styles.css">
+    <link rel="stylesheet" media="screen and (min-width: 768px)" href="/assets/css/styles.css">
+    <link href="/assets/css/styles.css" rel="stylesheet">
+    <link rel="icon" href="/assets/img/jarditou_favicon.ico">
+</head>
+
+<body>
+    <header>
+        <img src="img/jarditou_logo-removebg-preview.png" alt="logo_jarditou" title="Jarditou" class="jarditou">
+        <h2 class="intro">La qualit&eacute; depuis 70 ans</h2>
+    </header>
+    <nav>
+        <ul>
+            <br>
+            <li><a id=link href=index.html>Accueil</a></li>
+            <li><a id=link href=tableau.html>Tableau</a></li>
+            <li><a id=link href=contact.html>Contact</a></li>
+        </ul>
+        <br>
+        <br>
+        <img src="img/promotion.jpg" alt="Promotion_terrasse" title="promotion" class="promo">
+    </nav>
+    <section>
+        <h1>Contact</h1>
+        <hr>
+    </section>
+    <article>
+        <p>&#42;Ces zones sont obligatoires</p>
+
+        <form action="" method="post">
+            <legend>Vos coordonn&eacute;es</legend>
+            <br>
+            <label for="nom">Nom&#42;:</label>
+            <input type="text" name="nom" id="nom" size="50" maxlength="50">
+            <br>
+            <label for="prenom">Pr&eacute;nom&#42;:</label><input type="text" name="prenom" size="50" maxlength="50">
+
+            <br>
+            <br>
+            <div>Sexe&#42;
+                <label><input type="radio" name="sexe" value="feminin" checked required> F&eacute;minin</label>
+                <label><input type="radio" name="sexe" value="masculin" required> Masculin</label>
+                <label><input type="radio" name="sexe" value="autre" required> autre</label>
+            </div>
+
+            <br>
+
+            <fieldset>
+                <label for="date">Date de naissance&#42;:</label><input type="date" name="ddn" id="date">
+                <br>
+                <label for="nom">Code Postal&#42;:</label><input type="text" name="nom" id="?"><br>
+                <label for="nom">Adresse:</label><input type="text" name="nom" id="?"><br>
+                <label for="nom">Ville:</label><input type="text" name="nom" id="?"><br>
+                <label for="?">Email&#42;:</label><input type="email" name="email"><br>
+            </fieldset>
+
+            <br>
+            <br>
+
+            <legend>Votre demande</legend>
+
+            <br>
+
+            <fieldset>
+                <label for="sujet">Sujet&#42:</label>
+                <select id="sujet">
+                    <label><option value="" selected>-</option></label>
+                    <label><option value="Mes commandes">Mes commandes</option></label>
+                    <label><option value="Question sur un produit">Question sur un produit</option></label>
+                    <label><option value="R&eacute;clamation">R&eacute;clamation</option></label>
+                    <label><option value="Autres">Autres</option></label>
+                </select>
+                <br>
+                <label for="votre question">Votre question&#42:</label><textarea name="commentaire" rows="10"
+                    cols="50"></textarea>
+            </fieldset>
+        </form>
+        <form>
+            <br>
+            <input type="checkbox" name="accepte" value="accepte" required> &#42 <label for="nom">J'accepte le
+                traitement
+                informatique de ce formulaire</label>
+            <br>
+            <br>
+            <input type="submit" value="envoyer">
+            <input type="reset" value="annuler">
+
+
+        </form>
+    </article>
+    <footer>
+        <hr>
+        <ul>
+            <br>
+            <li><a href="mention légales.html">Mention légales</a></li>
+            <li><a href=horaires.html>Horaires</a></li>
+            <li><a href=plandusite.html>Plan du site</a></li>
+        </ul>
+    </footer>
+</body>
+
+</html>

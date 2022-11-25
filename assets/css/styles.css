@@ -1,0 +1,145 @@
+body {
+    background-image: url("/assets/img/JardinJaponais.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 75% 50%
+}
+
+header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+table {
+    border: solid white;
+
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: white;
+}
+
+link {
+    color: white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: auto;
+    padding-left: 15px;
+    margin-left: 15px;
+    font-style: italic;
+    background-color: black;
+    width: 300px;
+}
+
+form {
+    color: white;
+    border: solid white;
+}
+
+aside {
+    width: 20%;
+    height: 400px;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-image: url(/assets/img/fleur-de-cerisier-en-parfumerie.jpg);
+}
+
+.promo {
+    width: 100%;
+}
+
+.jarditou {
+    width: 600px;
+    height: 200px;
+}
+
+.intro {
+    float: right;
+
+}
+
+.error {
+    float: left;
+}
+
+@media screen and (max-width: 576px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+
+h2 {
+    font-size: 20px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+li a {
+    font-size: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+li a {
+    font-size: 40px;
+}
