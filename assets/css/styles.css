@@ -17,6 +17,14 @@ table {
 
 }
 
+hr {
+    color: white;
+}
+
+u{
+    color: red;
+}
+
 h1 {
     color: red;
 }
@@ -47,6 +55,7 @@ li {
 
 li a {
     display: block;
+    border: solid white;
     color: white;
     text-align: center;
     margin: auto;
@@ -63,6 +72,7 @@ form {
 }
 
 aside {
+    color: white;
     width: 20%;
     height: 400px;
     padding-left: 15px;
@@ -89,6 +99,7 @@ aside {
 .error {
     float: left;
 }
+
 
 @media screen and (max-width: 768px) {
     h1 {
