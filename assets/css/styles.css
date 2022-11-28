@@ -72,6 +72,7 @@ form {
 }
 
 aside {
+    border: solid 3px black;
     color: white;
     width: 20%;
     height: 400px;
@@ -80,7 +81,9 @@ aside {
     float: right;
     font-style: italic;
     background-image: url(/assets/img/fleur-de-cerisier-en-parfumerie.jpg);
+    
 }
+
 
 .promo {
     width: 100%;
