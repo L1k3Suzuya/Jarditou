@@ -86,6 +86,7 @@ aside {
 
 
 .promo {
+    border: solid 3px black;
     width: 100%;
 }
 
