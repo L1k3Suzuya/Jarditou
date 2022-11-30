@@ -26,7 +26,7 @@ u{
 }
 
 h1 {
-    color: white;
+    color:  white;
 }
 
 h2 {
@@ -55,7 +55,7 @@ li {
 
 li a {
     display: block;
-    border: solid white;
+    border: solid 10px black;
     color: white;
     text-align: center;
     margin: auto;
@@ -72,8 +72,7 @@ form {
 }
 
 aside {
-    border: solid 3px black;
-    color: white;
+    color: black;
     width: 20%;
     height: 400px;
     padding-left: 15px;
@@ -81,13 +80,15 @@ aside {
     float: right;
     font-style: italic;
     background-image: url(/assets/img/fleur-de-cerisier-en-parfumerie.jpg);
+    border-radius: 150%;
     
 }
 
 
 .promo {
-    border: solid 3px black;
+    border: solid 2px black;
     width: 100%;
+    border-radius: 25%;
 }
 
 .jarditou {
