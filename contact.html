@@ -33,7 +33,7 @@
     <article>
         <p>&#42;Ces zones sont obligatoires</p>
 
-        <form action="" method="post">
+        <form action="formulaire.php" method="post" id="formulaire">
             <legend>Vos coordonn&eacute;es</legend>
             <br>
             <label for="nom">Nom&#42;:</label>
@@ -57,7 +57,7 @@
                 <label for="nom">Code Postal&#42;:</label><input type="text" name="nom" id="code_postal"><br>
                 <label for="nom">Adresse:</label><input type="text" name="nom" id="adresse"><br>
                 <label for="nom">Ville:</label><input type="text" name="nom" id="ville"><br>
-                <label for="nom">Email&#42;:</label><input type="email" name="email"><br>
+                <label for="nom">Email&#42;:</label><input type="email" name="email" placeholder="exemple@gmail.com"><br>
             </fieldset>
 
             <br>
@@ -70,7 +70,7 @@
             <fieldset>
                 <label for="sujet">Sujet&#42:</label>
                 <select id="sujet">
-                    <label><option value="" selected>-</option></label>
+                    <label><option value="" selected>Veuillez séléctionner un sujet</option></label>
                     <label><option value="Mes commandes">Mes commandes</option></label>
                     <label><option value="Question sur un produit">Question sur un produit</option></label>
                     <label><option value="R&eacute;clamation">R&eacute;clamation</option></label>

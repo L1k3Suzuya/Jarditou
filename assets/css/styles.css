@@ -121,6 +121,14 @@ aside {
     p {
         font-size: 40px;
     }
+
+    tr {
+        font-size: 20px;
+    }
+
+    form {
+        font-size: 40px;
+    }
     
     img {
         max-width: 100%;
